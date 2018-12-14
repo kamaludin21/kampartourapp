@@ -34,14 +34,17 @@ public class MainActivity extends AppCompatActivity
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new FragmentSatu()).commit();
-            navigationView.setCheckedItem(R.id.nav_camera);
+                    new FragmentHome()).commit();
+            navigationView.setCheckedItem(R.id.home);
         }
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.home:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new FragmentHome()).commit();
             case R.id.nav_camera:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentSatu()).commit();
@@ -62,6 +65,9 @@ public class MainActivity extends AppCompatActivity
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentTujuh()).commit();
                 break;
+            case R.id.nav_shop:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new FragmentDelapan()).commit();
             case R.id.nav_share:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentLima()).commit();

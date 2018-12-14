@@ -5,6 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
             android:id="@+id/nav_camera"
             android:icon="@drawable/ic_menu_camera"
             android:title="Objek Wisata" />
@@ -21,9 +25,15 @@
             android:icon="@drawable/ic_hospital"
             android:title="Puskesmas &amp; Rumah Sakit " />
 
-        <item android:id="@+id/nav_gas"
+        <item
+            android:id="@+id/nav_gas"
             android:icon="@drawable/ic_gas_station"
             android:title="SPBU"/>
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping"
+            android:title="Perbelanjaan"/>
+
     </group>
 
     <item android:title="Communicate">
