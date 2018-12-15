@@ -13,14 +13,13 @@ public class FragmentDelapan extends Fragment {
     @Nullable
     @Override
     public View onCreateView (LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-//        return inflater.inflate(R.layout.fragment_dua, container, false);
 
         View v =  inflater.inflate(R.layout.fragment_delapan, container, false);
 
         WebView webView = (WebView) v.findViewById(R.id.fragment_delapan);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=belanja");
+        webView.loadUrl("http://alumni.kamaludin.ga/admin/index.php?module=perbelanjaan");
 
         return v;
     }

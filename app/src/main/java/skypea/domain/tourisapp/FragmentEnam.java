@@ -18,7 +18,7 @@ public class FragmentEnam extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.fragment_enam);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://alumni.kamaludin.ga/profillingga.php");
+        webView.loadUrl("http://alumni.kamaludin.ga/teleponpenting.php");
 
         return v;
     }

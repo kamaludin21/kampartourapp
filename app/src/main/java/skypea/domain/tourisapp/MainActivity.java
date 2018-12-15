@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_shop:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentDelapan()).commit();
+
             case R.id.nav_share:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentLima()).commit();
