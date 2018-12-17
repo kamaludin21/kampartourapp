@@ -24,7 +24,6 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_hospital"
             android:title="Puskesmas &amp; Rumah Sakit " />
-
         <item
             android:id="@+id/nav_gas"
             android:icon="@drawable/ic_gas_station"

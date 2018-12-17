@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentHome()).commit();
+                break;
             case R.id.nav_camera:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new FragmentSatu()).commit();
