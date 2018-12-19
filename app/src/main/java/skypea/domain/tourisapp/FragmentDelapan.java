@@ -19,7 +19,7 @@ public class FragmentDelapan extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.fragment_delapan);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://alumni.kamaludin.ga/admin/index.php?module=perbelanjaan");
+        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=perbelanjaan");
 
         return v;
     }

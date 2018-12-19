@@ -18,7 +18,7 @@ public class FragmentTujuh extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.fragment_tujuh);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://alumni.kamaludin.ga/admin/index.php?module=transportasi");
+        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=transportasi");
 
         return v;
     }
