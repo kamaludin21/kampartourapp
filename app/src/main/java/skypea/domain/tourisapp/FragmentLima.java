@@ -18,7 +18,7 @@ public class FragmentLima extends Fragment {
         WebView webView = (WebView) v.findViewById(R.id.fragment_lima);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://alumni.kamaludin.ga/profilkampar.php");
+        webView.loadUrl("http://alumni.kamaludin.ga/ai/index.php?module=event");
 
         return v;
     }

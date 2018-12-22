@@ -35,16 +35,16 @@
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Lain-lain">
         <menu>
-            <!--<item-->
-                <!--android:id="@+id/nav_share"-->
-                <!--android:icon="@drawable/ic_info"-->
-                <!--android:title="Profil Kampar" />-->
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_phone"
-                android:title="Telepon Penting" />
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_info"
+                android:title="Profil Kampar" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_phone"-->
+                <!--android:title="Telepon Penting" />-->
         </menu>
     </item>
 
